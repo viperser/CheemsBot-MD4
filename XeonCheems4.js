@@ -6000,7 +6000,7 @@ await fs.unlinkSync(encmedia)
 }
 }
 break
-	case 'toimage': case 'toimg': {
+	case 'photo': case 'toimg': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (!m.quoted) return reply('Reply Image')
@@ -6017,7 +6017,7 @@ fs.unlinkSync(ran)
 })
 }
 break
-case 'tomp4': case 'tovideo': {
+case 'mp4': case 'tovideo': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (!m.quoted) return reply('Reply Image')
@@ -6030,7 +6030,7 @@ await XeonBotInc.sendMessage(m.chat, { video: { url: webpToMp4.result, caption: 
 await fs.unlinkSync(media)
 }
 break
-case 'toaud': case 'toaudio': {
+case 'mp3': case 'toaudio': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (!/video/.test(mime) && !/audio/.test(mime)) return reply(`Send/Reply Video/Audio You Want To Use As Audio With Caption ${prefix + command}`)
@@ -6042,7 +6042,7 @@ let audio = await toAudio(media, 'mp4')
 XeonBotInc.sendMessage(m.chat, {audio: audio, mimetype: 'audio/mpeg'}, { quoted : m })
 }
 break
-case 'tomp3': {
+case 'aud': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (/document/.test(mime)) return reply(`Send/Reply Video/Audio You Want To Convert Into MP3 With Caption ${prefix + command}`)
@@ -6067,7 +6067,7 @@ let audio = await toPTT(media, 'mp4')
 XeonBotInc.sendMessage(m.chat, {audio: audio, mimetype:'audio/mpeg', ptt:true }, {quoted:m})
 }
 break
-case 'togif': {
+case 'gif': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (!m.quoted) return reply('Reply Image')
@@ -6080,7 +6080,7 @@ await XeonBotInc.sendMessage(m.chat, { video: { url: webpToMp4.result, caption: 
 await fs.unlinkSync(media)
 }
 break
-	case 'tourl': {
+	case 'url': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 reply(mess.wait)
@@ -6151,7 +6151,7 @@ reply(teks)
 })
 }
 break
-case 'gimage': case 'googleimage': {
+case 'img': case 'googleimage': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (!args[0]) return reply("What picture are you looking for??")
@@ -6184,7 +6184,7 @@ XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
 })
 }
 break
-	case 'igstoryxx': case 'instagramstoryxx': {
+	case 'story': case 'instagramstory': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (!args[0]) return reply(`Example :\n${prefix + command} josephxeon13`)
@@ -6221,7 +6221,7 @@ reply(String(err))
 }
 }
 break
-case 'igs2': case 'igstory2': case 'instagramstory2': {
+case 'story2': case 'igstory2': case 'instagramstory2': {
 if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
                 if (!text) return reply(`Where is the username?\nExample: ${prefix}igstory josephxeon13`)
@@ -6242,7 +6242,7 @@ if (isBan) return reply(mess.ban)
             }).catch((err) => reply(`Sorry username ${text} was not found or maybe he/she has no story uploaded in her id`))
             }	
 			break
-case 'ig2': case 'igdl2': case 'instagram2': {
+case 'insta2': case 'igdl2': case 'instagram2': {
                if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
                 if (!text) return reply(`Where is the link bro`)
@@ -6264,7 +6264,7 @@ case 'ig2': case 'igdl2': case 'instagram2': {
             }).catch((err) => reply(mess.error))
             }		
 			break
-case 'igdl': case 'instagram': case 'instagramreels': case 'igreels': {
+case 'insta': case 'instagram': case 'instagramreels': case 'igreels': {
    if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (!args[0]) return reply(`Example :\n${prefix + command} https://www.instagram.com/p/CcvJGuxh9VI/?igshid=YmMyMTA2M2Y=`)
@@ -6313,7 +6313,7 @@ reply("Error! ")
 }
 }
 break
-case 'mp4' : {
+case 'tomp4' : {
 	   if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 if (!args[0]) return reply(`Where's the link ?`)
