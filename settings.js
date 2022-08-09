@@ -62,7 +62,7 @@ global.location = "India, Kerala, God's own country 🕊" //ur location
 
 //bot bomdy 
 global.owner = ['916238054812']
-global.ownertag = '916238054812' //ur tag number
+global.ownertag = '91623805481' //ur tag number
 global.botname = '🕊️⃞⋆⋆ ♰⃟〄ᴠɪᴘᴇʀ ʙᴏᴛ🇱🇷⃞➻➤' //ur bot name
 global.linkz = "www.endilessboys.com" //your theme url which will be displayed on whatsapp
 global.websitex = "www.instagram.com/_adaxxh" //ur website to be displayed
