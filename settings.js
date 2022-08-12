@@ -55,7 +55,7 @@ global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
 global.vcardowner = ['916238054812'] //ur owner number
-global.ownername = "𝙑𝙄𝙋𝞢𝙍 𝙎𝞢𝙍🕊" //ur owner name
+global.ownername = "🌿⃝★ ͢ꪶ𝙑𝙄𝙋𝞢𝙍ꫂ⎯᮫⎯ᷤ⎯ͥ⎯᮫ᷢ⎯➤⃝🪁" //ur owner name
 global.ytname = "Hehe Nthada nokkunne enthayalum vanne alle insta il follw akk🌝" //ur yt chanel name
 global.socialm = "𝙄𝙉𝙎𝙏𝘼:_adaxxh" //ur github or insta name
 global.location = "India, Kerala, God's own country 🕊" //ur location
@@ -63,13 +63,13 @@ global.location = "India, Kerala, God's own country 🕊" //ur location
 //bot bomdy 
 global.owner = ['916238054812']
 global.ownertag = '91623805481' //ur tag number
-global.botname = '🕊️⃞⋆⋆ ♰⃟〄ᴠɪᴘᴇʀ ʙᴏᴛ🇱🇷⃞➻➤' //ur bot name
+global.botname = '🇮🇳⃝⭒͢ꪶ𝙑𝙄𝙋𝞢𝙍💖 𝙈𝘿⋆─ᷨ─ͦ─ͭ─⋆' //ur bot name
 global.linkz = "www.endilessboys.com" //your theme url which will be displayed on whatsapp
 global.websitex = "www.instagram.com/_adaxxh" //ur website to be displayed
 global.botscript = 'angane ne ee bot ondakanda' //script link
 global.reactmoji = "🕊" //ur menu react emoji
 global.themeemoji = "👻" //ur theme emoji
-global.packname = "🕊️⃞⋆⋆ ♰⃟〄ᴠɪᴘᴇʀ ʙᴏᴛ🇱🇷⃞➻➤ \n\n\n\n\n\n\n\n\n\n\n🦄🦄🦄 " //ur sticker watermark packname
+global.packname = "🌿⃝★ ͢ꪶ𝙑𝙄𝙋𝞢𝙍ꫂ⎯᮫⎯ᷤ⎯ͥ⎯᮫ᷢ⎯➤⃝🪁 \n\n\n\n\n\n\n\n\n\n\n\n\n🐦🐦🐦 " //ur sticker watermark packname
 global.author = "𝙑𝙄𝙋𝞢𝙍 𝙎𝞢𝙍🕊" //ur sticker watermark author
 
 //Bot theme media
