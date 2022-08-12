@@ -73,10 +73,10 @@ global.packname = "🕊️⃞⋆⋆ ♰⃟〄ᴠɪᴘᴇʀ ʙᴏᴛ🇱🇷⃞�
 global.author = "𝙑𝙄𝙋𝞢𝙍 𝙎𝞢𝙍🕊" //ur sticker watermark author
 
 //Bot theme media
-global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
-global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
+global.thum = fs.readFileSync("./XeonMedia/theme/viperser.jpg") //ur thumb pic
+global.log0 = fs.readFileSync("./XeonMedia/theme/viperser.jpg") //ur logo pic
+global.err4r = fs.readFileSync("./XeonMedia/theme/viperser.jpg") //ur error pic
+global.thumb = fs.readFileSync("./XeonMedia/theme/viperser.jpg") //ur thumb pic
 
 //damtabase
 global.premium = ['916909137213'] //ur premium numbers
@@ -133,7 +133,7 @@ global.mess = {
    umpanawal: 5,
    potionawal: 1
 }
-global.thumb = fs.readFileSync('./XeonMedia/theme/cheemspic.jpg')
+global.thumb = fs.readFileSync('./XeonMedia/theme/viperser.jpg')
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
